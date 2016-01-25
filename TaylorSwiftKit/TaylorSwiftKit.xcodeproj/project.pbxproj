@@ -7,21 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		556B1B5E1C53B8D500C9F744 /* GestureBlockHandler.swift in Headers */ = {isa = PBXBuildFile; fileRef = 55D9D0E01C53E8540048B70F /* GestureBlockHandler.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		55BC239C1B25DCE900A1E29C /* TaylorSwiftKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BC239B1B25DCE900A1E29C /* TaylorSwiftKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55BC23A21B25DCE900A1E29C /* TaylorSwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BC23961B25DCE900A1E29C /* TaylorSwiftKit.framework */; };
 		55BC23A91B25DCE900A1E29C /* TaylorSwiftKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23A81B25DCE900A1E29C /* TaylorSwiftKitTests.swift */; };
-		55BC23B51B25DD8800A1E29C /* NetworkFileDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23B41B25DD8800A1E29C /* NetworkFileDownload.swift */; };
-		55BC23B71B25DDA000A1E29C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23B61B25DDA000A1E29C /* Result.swift */; };
-		55BC23B91B25DDC000A1E29C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23B81B25DDC000A1E29C /* Network.swift */; };
-		55BC23BC1B25DDDB00A1E29C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23BB1B25DDDB00A1E29C /* Errors.swift */; };
-		55BC23BF1B25DDFB00A1E29C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23BE1B25DDFB00A1E29C /* Localization.swift */; };
-		55BC23C41B25DE5A00A1E29C /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23C01B25DE5A00A1E29C /* JSON.swift */; };
-		55BC23C51B25DE5A00A1E29C /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23C11B25DE5A00A1E29C /* JSONDecodable.swift */; };
-		55BC23C61B25DE5A00A1E29C /* JSONNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23C21B25DE5A00A1E29C /* JSONNetworkService.swift */; };
-		55BC23C71B25DE5A00A1E29C /* OfflineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23C31B25DE5A00A1E29C /* OfflineData.swift */; };
-		55BC23C91B25DE8A00A1E29C /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23C81B25DE8A00A1E29C /* Functional.swift */; };
-		55BC23CC1B25DEAC00A1E29C /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23CB1B25DEAC00A1E29C /* Analytics.swift */; };
-		55BC23CF1B25DEBF00A1E29C /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC23CE1B25DEBF00A1E29C /* Properties.swift */; };
+		55D9D0E11C53E8540048B70F /* GestureBlockHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9D0E01C53E8540048B70F /* GestureBlockHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,18 +31,7 @@
 		55BC23A11B25DCE900A1E29C /* TaylorSwiftKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaylorSwiftKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BC23A71B25DCE900A1E29C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55BC23A81B25DCE900A1E29C /* TaylorSwiftKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftKitTests.swift; sourceTree = "<group>"; };
-		55BC23B41B25DD8800A1E29C /* NetworkFileDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkFileDownload.swift; sourceTree = "<group>"; };
-		55BC23B61B25DDA000A1E29C /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		55BC23B81B25DDC000A1E29C /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		55BC23BB1B25DDDB00A1E29C /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		55BC23BE1B25DDFB00A1E29C /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
-		55BC23C01B25DE5A00A1E29C /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		55BC23C11B25DE5A00A1E29C /* JSONDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
-		55BC23C21B25DE5A00A1E29C /* JSONNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONNetworkService.swift; sourceTree = "<group>"; };
-		55BC23C31B25DE5A00A1E29C /* OfflineData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineData.swift; sourceTree = "<group>"; };
-		55BC23C81B25DE8A00A1E29C /* Functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = TaylorSwiftKit/Classes/Functional.swift; sourceTree = "<group>"; };
-		55BC23CB1B25DEAC00A1E29C /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
-		55BC23CE1B25DEBF00A1E29C /* Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		55D9D0E01C53E8540048B70F /* GestureBlockHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GestureBlockHandler.swift; path = TaylorSwiftKit/Classes/Gestures/GestureBlockHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,65 +110,17 @@
 		55BC23B21B25DD1600A1E29C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				55BC23C81B25DE8A00A1E29C /* Functional.swift */,
-				55BC23CD1B25DEBF00A1E29C /* Properties */,
-				55BC23CA1B25DEAC00A1E29C /* Analytics */,
-				55BC23BD1B25DDFB00A1E29C /* Localization */,
-				55BC23BA1B25DDDB00A1E29C /* Errors */,
-				55BC23B31B25DD8800A1E29C /* Network */,
+				55D9D0DF1C53E8540048B70F /* Gestures */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
 		};
-		55BC23B31B25DD8800A1E29C /* Network */ = {
+		55D9D0DF1C53E8540048B70F /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
-				55BC23C01B25DE5A00A1E29C /* JSON.swift */,
-				55BC23C11B25DE5A00A1E29C /* JSONDecodable.swift */,
-				55BC23C21B25DE5A00A1E29C /* JSONNetworkService.swift */,
-				55BC23C31B25DE5A00A1E29C /* OfflineData.swift */,
-				55BC23B81B25DDC000A1E29C /* Network.swift */,
-				55BC23B61B25DDA000A1E29C /* Result.swift */,
-				55BC23B41B25DD8800A1E29C /* NetworkFileDownload.swift */,
+				55D9D0E01C53E8540048B70F /* GestureBlockHandler.swift */,
 			);
-			name = Network;
-			path = TaylorSwiftKit/Classes/Network;
-			sourceTree = "<group>";
-		};
-		55BC23BA1B25DDDB00A1E29C /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				55BC23BB1B25DDDB00A1E29C /* Errors.swift */,
-			);
-			name = Errors;
-			path = TaylorSwiftKit/Classes/Errors;
-			sourceTree = "<group>";
-		};
-		55BC23BD1B25DDFB00A1E29C /* Localization */ = {
-			isa = PBXGroup;
-			children = (
-				55BC23BE1B25DDFB00A1E29C /* Localization.swift */,
-			);
-			name = Localization;
-			path = TaylorSwiftKit/Classes/Localization;
-			sourceTree = "<group>";
-		};
-		55BC23CA1B25DEAC00A1E29C /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				55BC23CB1B25DEAC00A1E29C /* Analytics.swift */,
-			);
-			name = Analytics;
-			path = TaylorSwiftKit/Classes/Analytics;
-			sourceTree = "<group>";
-		};
-		55BC23CD1B25DEBF00A1E29C /* Properties */ = {
-			isa = PBXGroup;
-			children = (
-				55BC23CE1B25DEBF00A1E29C /* Properties.swift */,
-			);
-			name = Properties;
-			path = TaylorSwiftKit/Classes/Properties;
+			name = Gestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55BC239C1B25DCE900A1E29C /* TaylorSwiftKit.h in Headers */,
+				556B1B5E1C53B8D500C9F744 /* GestureBlockHandler.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +180,8 @@
 		55BC238D1B25DCE900A1E29C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = DevedUpLtd;
 				TargetAttributes = {
@@ -299,18 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55BC23CF1B25DEBF00A1E29C /* Properties.swift in Sources */,
-				55BC23C61B25DE5A00A1E29C /* JSONNetworkService.swift in Sources */,
-				55BC23BC1B25DDDB00A1E29C /* Errors.swift in Sources */,
-				55BC23C91B25DE8A00A1E29C /* Functional.swift in Sources */,
-				55BC23BF1B25DDFB00A1E29C /* Localization.swift in Sources */,
-				55BC23CC1B25DEAC00A1E29C /* Analytics.swift in Sources */,
-				55BC23C71B25DE5A00A1E29C /* OfflineData.swift in Sources */,
-				55BC23C51B25DE5A00A1E29C /* JSONDecodable.swift in Sources */,
-				55BC23B71B25DDA000A1E29C /* Result.swift in Sources */,
-				55BC23C41B25DE5A00A1E29C /* JSON.swift in Sources */,
-				55BC23B51B25DD8800A1E29C /* NetworkFileDownload.swift in Sources */,
-				55BC23B91B25DDC000A1E29C /* Network.swift in Sources */,
+				55D9D0E11C53E8540048B70F /* GestureBlockHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +278,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -371,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,6 +328,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -414,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

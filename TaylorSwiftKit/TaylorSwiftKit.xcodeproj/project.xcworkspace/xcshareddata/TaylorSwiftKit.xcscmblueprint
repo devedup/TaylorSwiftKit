@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AE2272E75470EEB2997A5E7017C42341516BBF75",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E789EFDA387005A8B27BC855A347352CEF17421F" : 0,
+    "AE2272E75470EEB2997A5E7017C42341516BBF75" : 0,
+    "CA35A5C31363EB6E1C6F4FD5FFEC7FF8D7D59095" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EC2A3544-400A-4E9A-8BE0-F27B96ADD58E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E789EFDA387005A8B27BC855A347352CEF17421F" : "..",
+    "AE2272E75470EEB2997A5E7017C42341516BBF75" : "TaylorSwiftKit\/",
+    "CA35A5C31363EB6E1C6F4FD5FFEC7FF8D7D59095" : "..\/..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TaylorSwiftKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TaylorSwiftKit\/TaylorSwiftKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:devedup\/TaylorSwiftKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AE2272E75470EEB2997A5E7017C42341516BBF75"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FilmFlexMovies\/iOSApp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA35A5C31363EB6E1C6F4FD5FFEC7FF8D7D59095"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FilmFlexMovies\/iOSModelController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E789EFDA387005A8B27BC855A347352CEF17421F"
+    }
+  ]
+}
