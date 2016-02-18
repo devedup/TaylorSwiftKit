@@ -145,7 +145,6 @@
 				55BC23911B25DCE900A1E29C /* Sources */,
 				55BC23921B25DCE900A1E29C /* Frameworks */,
 				55BC23931B25DCE900A1E29C /* Headers */,
-				55BC23941B25DCE900A1E29C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -212,13 +211,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		55BC23941B25DCE900A1E29C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55BC239F1B25DCE900A1E29C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,6 +365,7 @@
 		55BC23AE1B25DCE900A1E29C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
