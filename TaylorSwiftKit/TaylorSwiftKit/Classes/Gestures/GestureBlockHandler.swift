@@ -14,7 +14,7 @@ import UIKit
 	private var handlers = [UIView: dispatch_block_t]()
 	
 	public func addSingleTapToView(view: UIView, onTap: dispatch_block_t) -> UITapGestureRecognizer {
-		let gesture = UITapGestureRecognizer(target: self, action: "handleGesture:")
+		let gesture = UITapGestureRecognizer(target: self, action: #selector(GestureBlockHandler.handleGesture(_:)))
 		gesture.numberOfTapsRequired = 1
 		handlers[view] = onTap
 		view.addGestureRecognizer(gesture)
