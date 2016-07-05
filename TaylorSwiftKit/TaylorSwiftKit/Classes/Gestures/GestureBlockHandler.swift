@@ -11,20 +11,20 @@ import UIKit
 
 @objc public class GestureBlockHandler: NSObject {
 	
-	private var handlers = [UIView: dispatch_block_t]()
+	private var handlers = [UIView: () -> ()]()
 	
-	public func addSingleTapToView(view: UIView, onTap: dispatch_block_t) -> UITapGestureRecognizer {
-		let gesture = UITapGestureRecognizer(target: self, action: "handleGesture:")
+	public func addSingleTapToView(_ view: UIView, onTap: () -> ()) -> UITapGestureRecognizer {
+		let gesture = UITapGestureRecognizer(target: self, action: #selector(GestureBlockHandler.handleGesture(_:)))
 		gesture.numberOfTapsRequired = 1
 		handlers[view] = onTap
 		view.addGestureRecognizer(gesture)
-		view.userInteractionEnabled = true
+		view.isUserInteractionEnabled = true
 		return gesture
 	}	
 	
 	// MARK: Gesture Handling
 	
-	func handleGesture(gesture: UIGestureRecognizer) {
+	func handleGesture(_ gesture: UIGestureRecognizer) {
 		if let view = gesture.view, handler = handlers[view] {
 			handler()
 		}
