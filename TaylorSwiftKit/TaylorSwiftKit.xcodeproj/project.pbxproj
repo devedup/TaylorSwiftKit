@@ -186,7 +186,10 @@
 				TargetAttributes = {
 					55BC23951B25DCE900A1E29C = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = KTWZ3ANN7L;
+						DevelopmentTeamName = "Filmflex Movies Ltd";
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 					55BC23A01B25DCE900A1E29C = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -347,6 +350,8 @@
 		55BC23AD1B25DCE900A1E29C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -357,6 +362,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.devedup.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = KTWZ3ANN7L/;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				VALID_ARCHS = "arm64 armv7 armv7s i386";
@@ -368,6 +374,8 @@
 		55BC23AE1B25DCE900A1E29C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -378,6 +386,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.devedup.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = KTWZ3ANN7L/;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
